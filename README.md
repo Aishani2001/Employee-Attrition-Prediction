@@ -5,14 +5,30 @@ As the COVID-19 keeps unleashing its havoc, the world continues to get pushed in
 
 
 __AIM OF THE PREDICTION__: <br>
-To predict Employee Attrition by the given data about his/her past history
+To predict Employee Attrition by the given data about his/her past history.
 
 __FILE DESCRIPTION__ : <br>
 train.csv - the training set
 test.csv - the test set
 Sample submission.csv - a sample submission file in the correct format
 
-__DATA FIELDS__ : <br>
+__REQUIREMENTS__ : <br>
+- Python3 must be installed
+- Numpy
+- Pandas
+Other libraries used: 
+- Seaborn
+- Matplotlib
+- Scikit-Learn<br>
+
+__ACKNOWLEDGEMENTS__:
+We thank IBM for providing us with the dataset.<br>
+
+__EVALUATION__:
+The evaluation metric for this competition is AUC score under ROC. AUC - ROC curve is a performance measurement for classification problem at various thresholds settings. ROC is a probability curve and AUC represents degree or measure of separability. It tells how much model is capable of distinguishing between classes. Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1s. <br>
+
+
+__DATA FIELDS__ : <br> 
 Id - an anonymous id given to an Employee <br>
 Age - Age of an Employee <br>
 Attrition - Did the Employee leave the company : 0-No, 1-Yes <br>
