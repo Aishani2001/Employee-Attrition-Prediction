@@ -55,7 +55,7 @@ JobSatisfaction-
 1 'Low'
 2 'Medium'
 3 'High'
-4 'Very High<br>'
+4 'Very High<br>
 PerformanceRating-
 1 'Low'
 2 'Good'
@@ -71,7 +71,6 @@ CommunicationSkill-
 3 'Good'
 4 'Better'
 5 'Best'<br>
-
 StockOptionLevel-
 0 'No stocks'
 1 'Less Stocks'
