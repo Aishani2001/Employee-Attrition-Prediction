@@ -1,18 +1,18 @@
 # Employee-Attrition-Prediction
 
-OVERVIEW
+OVERVIEW : 
 As the COVID-19 keeps unleashing its havoc, the world continues to get pushed into the crisis of the great economic recession, more and more companies start to cut down their underperforming employees. Companies firing hundreds and thousands of Employees is a typical headline today. Cutting down employees or reducing an employee salary is a tough decision to take. It needs to be taken with utmost care as imprecision in the identification of employees whose performance is attriting may lead to sabotaging of both employees' career and the company's reputation in the market.
 
 
-AIM OF THE PREDICTION
+AIM OF THE PREDICTION : 
 To predict Employee Attrition by the given data about his/her past history
 
-FILE DESCRIPTION
+FILE DESCRIPTION : 
 train.csv - the training set
 test.csv - the test set
 Sample submission.csv - a sample submission file in the correct format
 
-DATA FIELDS
+DATA FIELDS :
 Id - an anonymous id given to an Employee
 Age - Age of an Employee
 Attrition - Did the Employee leave the company, 0-No, 1-Yes
@@ -35,57 +35,50 @@ YearsAtCompany - Number of years worked at this company
 YearsInCurrentRole - Number of years in current role
 YearsSinceLastPromotion - Number of years since last promotion
 YearsWithCurrManager - Number of years with the current manager
-Education
-
+Education-
 1 'Below College'
 2 'College'
 3 'Bachelor'
 4 'Master'
 5 'Doctor'
 
-EnvironmentSatisfaction
-
+EnvironmentSatisfaction-
 1 'Low'
 2 'Medium'
 3 'High'
 4 'Very High'
 
-JobInvolvement
-
+JobInvolvement-
 1 'Low'
 2 'Medium'
 3 'High'
 4 'Very High'
 
-JobSatisfaction
-
+JobSatisfaction-
 1 'Low'
 2 'Medium'
 3 'High'
 4 'Very High
 '
-PerformanceRating
-
+PerformanceRating-
 1 'Low'
 2 'Good'
 3 'Excellent'
 4 'Outstanding'
 
-Behaviour
-
+Behaviour-
 1 'Good'
 2 'Bad'
 3 'Not Rated'
 
-CommunicationSkill
-
+CommunicationSkill-
 1 'Bad'
 2 'Average'
 3 'Good'
 4 'Better'
 5 'Best'
-StockOptionLevel
 
+StockOptionLevel-
 0 'No stocks'
 1 'Less Stocks'
 2 'Moderate Stocks'
